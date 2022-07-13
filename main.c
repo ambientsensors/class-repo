@@ -8,7 +8,7 @@ int main()
     int c;
 
     // Very useful functionality
-    c = a * b;
+    c = a + b;
     printf("a * b = %d\n", c);
 
     c = a + b;
