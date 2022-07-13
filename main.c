@@ -1,8 +1,10 @@
 #include <stdio.h>
-main()
+#include "constants.h"
+
+int main()
 {
-    int a = 1;
-    int b = -1;
+    int a = AVALUE;
+    int b = BVALUE;
     int c;
 
     // Very useful functionality
