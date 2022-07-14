@@ -5,8 +5,8 @@
 
 int main()
 {
-    int a = AVALUE;
-    int b = BVALUE;
+    int a = A_VALUE;
+    int b = B_VALUE;
     int c;
     // FIXME remove these 2 lines when interrupt testing complete
     int testid;
@@ -18,6 +18,9 @@ int main()
 
     c = a + b;
     printf("a + b = %d\n", c);
+
+    c = a - b;
+    printf("a - b = %d\n", c);
 
     int_attach(BUTTON2_BITS, BUTTON2_GPIO_INT);
     // FIXME testing the btn_int before the h/w arrives - remove
