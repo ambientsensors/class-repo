@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdint.h>
+//#include <stdio.h>
+//#include <stdint.h>
 #include "constants.h"
 #include "button2.h"
 
