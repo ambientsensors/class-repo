@@ -1,2 +1,2 @@
-#define AVALUE (1)
-#define BVALUE (2)
+#define A_VALUE (1)
+#define B_VALUE (2)
